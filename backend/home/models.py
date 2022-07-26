@@ -9,3 +9,8 @@ class Test(models.Model):
         null=True,
         blank=True,
     )
+
+
+class TEst123(models.Model):
+    "Generated Model"
+    test456 = models.BigIntegerField()
