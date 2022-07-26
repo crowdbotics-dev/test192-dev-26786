@@ -14,3 +14,7 @@ class Test(models.Model):
 class TEst123(models.Model):
     "Generated Model"
     test456 = models.BigIntegerField()
+    t13654 = models.BigIntegerField(
+        null=True,
+        blank=True,
+    )
